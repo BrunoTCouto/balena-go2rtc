@@ -1,0 +1,23 @@
+name: balena-go2rtc
+type: sw.application
+description: >-
+  Runs go2rtc server on balenaOS devices
+post-provisioning: >-
+  ## Usage instructions
+
+  Allow a few minutes for your device to download the app. Once it's
+  completed, open the admin interface by visiting the device's IP address
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/BrunoTCouto/balena-go2rtc'
+  logo:
+    type: blob.asset
+    data:
+      url: 'https://raw.githubusercontent.com/AlexxIT/go2rtc/refs/heads/master/assets/logo.png'
+data:
+  supportedDeviceTypes:
+    - generic-aarch64
+    - aarch64
+version: 1.0.0
