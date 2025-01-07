@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.6...v1.0.7) (2025-01-07)
+
+
+### Bug Fixes
+
+* Remove commented out code in deploy-balena.sh ([584b73f](https://github.com/BrunoTCouto/balena-go2rtc/commit/584b73f3836e0ec60e0f6c23cd561e0050c20607))
+
 ## [1.0.6](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.5...v1.0.6) (2025-01-07)
 
 
