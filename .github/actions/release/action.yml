@@ -7,7 +7,9 @@ inputs:
     required: true
 
 outputs:
-  NEW_RELEASED_VERSION: ${{ steps.semantic.outputs.new_release_version }}
+  NEW_RELEASED_VERSION:
+    description: "New released version"
+    value: ${{ steps.semantic.outputs.new_release_version }}
 
 runs:
   using: 'composite'
