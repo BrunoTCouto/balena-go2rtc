@@ -39,7 +39,8 @@ echo "Starting balena deployment: draft=$draft, tag='$tag', SHA='$SHA'"
 
 tags=("sha" "$SHA")
 
-args=("$FLEET" "--nocache" "--registry-secrets" "/tmp/image_pull_secrets.yaml")
+# args=("$FLEET" "--nocache" "--registry-secrets" "/tmp/image_pull_secrets.yaml")
+args=("$FLEET" "--nocache")
 
 if [[ $draft == true ]]; then
   args+=("--draft")
