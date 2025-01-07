@@ -27,6 +27,8 @@ jobs:
     steps:
       - name: Checkout Application
         uses: actions/checkout@v4
+        with:
+          ref: ref: ${{ github.ref }}
       - name: Deploy with Balena
         run: .github/scripts/deploy-balena.sh
         env:
