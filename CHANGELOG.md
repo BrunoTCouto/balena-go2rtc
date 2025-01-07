@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.1.1...v1.1.2) (2025-01-07)
+
+
+### Bug Fixes
+
+* Update action.yml to include description for NEW_RELEASED_VERSION output ([2cadc72](https://github.com/BrunoTCouto/balena-go2rtc/commit/2cadc721446112c1434bf9d30c5cf9aa0567b8c8))
+* Update balena-cli installation path in deploy script ([b62c1ad](https://github.com/BrunoTCouto/balena-go2rtc/commit/b62c1adc56adfa65ec9d1bb014a1d5b939f3147f))
+
 ## [1.1.1](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.1.0...v1.1.1) (2025-01-07)
 
 
