@@ -20,4 +20,4 @@ data:
   supportedDeviceTypes:
     - generic-aarch64
     - aarch64
-version: 1.0.9
+version: 1.0.0
