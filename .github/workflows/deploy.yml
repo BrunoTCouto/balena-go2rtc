@@ -3,7 +3,7 @@ name: Deploy With Balena
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   release:
