@@ -31,4 +31,4 @@ jobs:
         run: .github/scripts/deploy-balena.sh
         env:
           BALENA_TOKEN: ${{ secrets.BALENA_TOKEN }}
-          FLEET: ${{ env.FLEET }}
+          FLEET: ${{ secrets.BALENA_FLEET }}
