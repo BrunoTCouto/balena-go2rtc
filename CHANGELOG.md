@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.1.2...v1.1.3) (2025-01-07)
+
+
+### Bug Fixes
+
+* Update GitHub Actions workflow to include ref in checkout step ([ba108ba](https://github.com/BrunoTCouto/balena-go2rtc/commit/ba108baa09cceb0e0027df0a7cafdf4b4b31fa03))
+* Update GitHub Actions workflow to include ref in checkout step ([eb0d27b](https://github.com/BrunoTCouto/balena-go2rtc/commit/eb0d27bc626ea3362c1c6160245758ce7f5d7cfa))
+
 ## [1.1.2](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.1.1...v1.1.2) (2025-01-07)
 
 
