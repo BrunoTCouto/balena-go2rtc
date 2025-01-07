@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.7...v1.1.0) (2025-01-07)
+
+
+### Features
+
+* Update go2rtc version ([4a279bd](https://github.com/BrunoTCouto/balena-go2rtc/commit/4a279bd82ea119303b884d98f0aac1744cd23b64))
+
 ## [1.0.7](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.6...v1.0.7) (2025-01-07)
 
 
