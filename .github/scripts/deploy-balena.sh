@@ -29,9 +29,19 @@ fi
 draft=false
 SHA="$(git rev-parse HEAD)"
 
-echo "Starting balena deployment: draft=$draft, SHA='$SHA'"
+echo "Starting balena deployment: draft=$draft, tag='$NEW_RELEASED_VERSION', SHA='$SHA'"
+
+tags=("sha" "$SHA")
 
 args=("$FLEET" "--nocache")
+
+if [[ $draft == true ]]; then
+  args+=("--draft")
+else
+  tags+=("version" "$NEW_RELEASED_VERSION")
+fi
+
+args+=("--release-tag" "${tags[@]}")
 
 echo "Logging in to balena cloud"
 balena login --token "$BALENA_TOKEN"

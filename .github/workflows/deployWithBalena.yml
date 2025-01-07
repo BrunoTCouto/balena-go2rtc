@@ -18,7 +18,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     outputs:
-      newReleaseNotes: ${{ steps.release_step.outputs.NEW_RELEASE_NOTES }}
+      newReleaseVersion: ${{ steps.release_step.outputs.NEW_RELEASED_VERSION }}
   pushToBalena:
     needs: release
     name: Deploy with Balena
@@ -32,3 +32,4 @@ jobs:
         env:
           BALENA_TOKEN: ${{ secrets.BALENA_TOKEN }}
           FLEET: ${{ secrets.BALENA_FLEET }}
+          NEW_RELEASED_VERSION: ${{ needs.release.outputs.newReleaseVersion }}
