@@ -17,6 +17,8 @@ jobs:
         uses: ./.github/actions/release
     outputs:
       newReleaseNotes: ${{ steps.release_step.outputs.NEW_RELEASE_NOTES }}
+    with:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   pushToBalena:
     needs: release
     name: Deploy with Balena
