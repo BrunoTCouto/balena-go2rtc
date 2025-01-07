@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.4...v1.0.5) (2025-01-07)
+
+
+### Bug Fixes
+
+* Update balena-cli installation path in deploy script ([5c9b808](https://github.com/BrunoTCouto/balena-go2rtc/commit/5c9b80803a87dde984e4c5c59953c461998b35af))
+
 ## [1.0.4](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.3...v1.0.4) (2025-01-07)
 
 
