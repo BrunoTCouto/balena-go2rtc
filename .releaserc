@@ -8,7 +8,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "sh .github\\workflows\\scripts\\update-balena-yml-version.sh ${nextRelease.version}"
+        "prepareCmd": "sh .github/scripts/update-balena-yml-version.sh ${nextRelease.version}"
       }
     ],
     [
