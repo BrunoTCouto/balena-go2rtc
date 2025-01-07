@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.2...v1.0.3) (2025-01-07)
+
+
+### Bug Fixes
+
+* balena push ([72caaa7](https://github.com/BrunoTCouto/balena-go2rtc/commit/72caaa71d72e1c3137f184ef979174ae91727c08))
+
 ## [1.0.2](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.1...v1.0.2) (2025-01-07)
 
 
