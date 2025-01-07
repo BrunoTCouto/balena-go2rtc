@@ -11,7 +11,7 @@ if ! command -v balena >/dev/null; then
   echo "Installing balena-cli version $BALENA_CLI_VERSION"
   curl -L "https://github.com/balena-io/balena-cli/releases/download/v${BALENA_CLI_VERSION}/balena-cli-v${BALENA_CLI_VERSION}-linux-x64-standalone.zip" -o balena-cli.zip
   unzip balena-cli.zip -d balena-cli
-  sudo mv balena-cli/balena /usr/local/bin/
+  sudo mv balena-cli/balena-cli/balena /usr/local/bin/
   rm -rf balena-cli balena-cli.zip
 fi
 
