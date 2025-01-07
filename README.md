@@ -9,5 +9,4 @@ This repository is a quick way to deploy [go2rtc](https://github.com/AlexxIT/go2
 <h2 align="center">
 
 [![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/BrunoTCouto/balena-go2rtc)
-
 </h2>
