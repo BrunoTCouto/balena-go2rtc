@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.3...v1.0.4) (2025-01-07)
+
+
+### Bug Fixes
+
+* Remove unused 'runs-on' property in deploy workflow ([584ed68](https://github.com/BrunoTCouto/balena-go2rtc/commit/584ed682b5b036d8734fa6ba6d2306984ec18618))
+* Update balena-cli to version 20.2.1 ([4420a31](https://github.com/BrunoTCouto/balena-go2rtc/commit/4420a3113b4618ab2a484996c944470e4896fe66))
+
 ## [1.0.3](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.0.2...v1.0.3) (2025-01-07)
 
 
