@@ -1,0 +1,19 @@
+name: Release
+description: 'Run Semantic-Release'
+
+outputs:
+  NEW_RELEASE_NOTES:
+    description: "new release notes"
+    value: ${{ steps.semantic.outputs.new_release_notes }}
+
+runs:
+  using: 'composite'
+  steps:
+      - name: Download bin artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: firmware.bin
+          path: .pio/build/esp32-production/firmware.bin
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v3
+        id: semantic

@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    needs: build
+    name: Semantic Release
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Application
+        uses: actions/checkout@v4
+      - id: release_step
+        uses: ./.github/actions/release
+    outputs:
+      newReleaseNotes: ${{ steps.release_step.outputs.NEW_RELEASE_NOTES }}
+  pushToBalena:
+    needs: release
+    name: Push to Balena
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Application
+        uses: actions/checkout@v4
+      - name: Push to Balena
+        uses: ./.github/actions/push-to-balena
+        with:
+          BALENA_TOKEN: ${{ secrets.BALENA_TOKEN }}
+          FLEET: ${{ env.FLEET }}
