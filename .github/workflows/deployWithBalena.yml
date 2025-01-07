@@ -28,7 +28,7 @@ jobs:
       - name: Checkout Application
         uses: actions/checkout@v4
       - name: Deploy with Balena
-        run: .github/scripts/deploy-to-balena.sh
+        run: .github/scripts/deploy-balena.sh
         env:
           BALENA_TOKEN: ${{ secrets.BALENA_TOKEN }}
           FLEET: ${{ env.FLEET }}
