@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.1.4...v1.2.0) (2025-01-09)
+
+
+### Features
+
+* Update semantic-release to use semantic-release-replace-plugin ([023527d](https://github.com/BrunoTCouto/balena-go2rtc/commit/023527d49307609ef596abbfa58df66ca5c6ee94))
+
 ## [1.1.4](https://github.com/BrunoTCouto/balena-go2rtc/compare/v1.1.3...v1.1.4) (2025-01-07)
 
 
