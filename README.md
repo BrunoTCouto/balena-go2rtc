@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-This repository is a quick way to deploy [go2rtc](https://github.com/AlexxIT/go2rtc/tree/master?tab=readme-ov-file) on a Raspberry Pi using [Balena](https://www.balena.io/cloud). Simply click the "[Deploy with Balena](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/BrunoTCouto/balena-go2rtc)" button below and follow the instructions.
+This repository is a quick way to deploy [go2rtc](https://github.com/AlexxIT/go2rtc) on a Raspberry Pi using [Balena](https://www.balena.io/cloud). Simply click the "[Deploy with Balena](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/BrunoTCouto/balena-go2rtc)" button below and follow the instructions.
 
 <h2 align="center">
 
