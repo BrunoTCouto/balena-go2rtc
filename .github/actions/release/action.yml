@@ -19,6 +19,6 @@ runs:
         uses: cycjimmy/semantic-release-action@v4
         with:
           extra_plugins: |
-            @semantic-release/exec@6.0.3
+            semantic-release-replace-plugin@1.2.7
         env:
           GITHUB_TOKEN: ${{ inputs.GITHUB_TOKEN }}

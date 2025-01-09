@@ -6,9 +6,16 @@
     "@semantic-release/changelog",
     "@semantic-release/github",
     [
-      "@semantic-release/exec",
+      "semantic-release-replace-plugin",
       {
-        "prepareCmd": "sh .github/scripts/update-balena-yml-version.sh ${nextRelease.version}"
+        "replacements": [
+          {
+            "files": ["balena.yml"],
+            "from": "version: .*",
+            "to": "version: '${nextRelease.version}'",
+            "countMatches": true
+          }
+        ]
       }
     ],
     [
